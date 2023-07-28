@@ -48,7 +48,7 @@ ExpCost = 13
 E = 3  # Maximum shelf life
 ER = [r for r in range(1, E + 1)]
 T = [t for t in range(10 + 1)]  # Periods
-N = [e for e in range(5)]  # Number of scenarios for hospitals
+N = [e for e in range(10)]  # Number of scenarios for hospitals
 WI_0_r = {r: 0 for r in ER}
 
 
